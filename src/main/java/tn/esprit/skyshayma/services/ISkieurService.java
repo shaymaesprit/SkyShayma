@@ -1,0 +1,13 @@
+package tn.esprit.skyshayma.services;
+
+import tn.esprit.skyshayma.entities.Skieur;
+
+import java.util.List;
+
+public interface ISkieurService {
+    public List<Skieur> retriveAll();
+    public Skieur addSkieur(Skieur skieur);
+    public Skieur updateSkieur(Skieur skieur);
+    public Skieur retrieveSkieur(Long numSkieur);
+    public void deleteSkieur(Long numSkieur);
+}
